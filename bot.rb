@@ -3,7 +3,7 @@ require 'net/http'
 require 'json'
 require 'time'
 
-bot = Discordrb::Commands::CommandBot.new token: 'NjMwMDAxMjMyNTQyNjk1NDI0.XZh8qA.NBbTnUIQqWqO_lQnBXlcu1UzkWQ', prefix: '-'
+bot = Discordrb::Commands::CommandBot.new token: '/* BOT TOKEN HERE*/', prefix: '-'
 myriadstart = Time.at(1946702800)
 myriadlast = Time.at(1946702800)
 
